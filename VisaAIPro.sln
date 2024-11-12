@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8CA8F6E4-445B-441F-8FC7-4958C54C42AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{86CBE967-9EEF-4811-A845-04D1B3503796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{100ADE74-0C67-4C1E-A702-06E6E83886B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{199CDE95-A432-4D04-B819-2599DDFDF255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Core.Application", "src\Core\VisaAIPro.Core.Application\VisaAIPro.Core.Application.csproj", "{3433588A-DA75-4302-9C41-2E7FACD2A48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Core.Domain", "src\Core\VisaAIPro.Core.Domain\VisaAIPro.Core.Domain.csproj", "{C5EB1748-0135-45BE-A87F-69523CA27241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Infrastructure.Persistence", "src\Infrastructure\VisaAIPro.Infrastructure.Persistence\VisaAIPro.Infrastructure.Persistence.csproj", "{187B1989-56A3-42F0-A84F-26DD4708A62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Infrastructure.Infrastructure", "src\Infrastructure\VisaAIPro.Infrastructure.Infrastructure\VisaAIPro.Infrastructure.Infrastructure.csproj", "{EAD03CF2-9928-467C-A379-95E44C632106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{8A6E313E-4509-4711-AE70-58B50C756D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Presentation.WebUI.AgencyCms", "src\Presentation\WebUI\VisaAIPro.Presentation.WebUI.AgencyCms\VisaAIPro.Presentation.WebUI.AgencyCms.csproj", "{0333B722-E220-4103-A162-C9CDEA52C5E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{64CDEE0A-05BC-4A27-AA35-94F1D3908D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaAIPro.Presentation.WebAPI.MobilAppAPI", "src\Presentation\WebAPI\VisaAIPro.Presentation.WebAPI.MobilAppAPI\VisaAIPro.Presentation.WebAPI.MobilAppAPI.csproj", "{BB775AA5-B3CA-418E-9DAA-06B224ED18EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{47ACE051-198A-49EF-8DA0-956C33269C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3433588A-DA75-4302-9C41-2E7FACD2A48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3433588A-DA75-4302-9C41-2E7FACD2A48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3433588A-DA75-4302-9C41-2E7FACD2A48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3433588A-DA75-4302-9C41-2E7FACD2A48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EB1748-0135-45BE-A87F-69523CA27241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EB1748-0135-45BE-A87F-69523CA27241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EB1748-0135-45BE-A87F-69523CA27241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EB1748-0135-45BE-A87F-69523CA27241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187B1989-56A3-42F0-A84F-26DD4708A62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187B1989-56A3-42F0-A84F-26DD4708A62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187B1989-56A3-42F0-A84F-26DD4708A62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187B1989-56A3-42F0-A84F-26DD4708A62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD03CF2-9928-467C-A379-95E44C632106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD03CF2-9928-467C-A379-95E44C632106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD03CF2-9928-467C-A379-95E44C632106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD03CF2-9928-467C-A379-95E44C632106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0333B722-E220-4103-A162-C9CDEA52C5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0333B722-E220-4103-A162-C9CDEA52C5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0333B722-E220-4103-A162-C9CDEA52C5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0333B722-E220-4103-A162-C9CDEA52C5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB775AA5-B3CA-418E-9DAA-06B224ED18EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB775AA5-B3CA-418E-9DAA-06B224ED18EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB775AA5-B3CA-418E-9DAA-06B224ED18EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB775AA5-B3CA-418E-9DAA-06B224ED18EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86CBE967-9EEF-4811-A845-04D1B3503796} = {8CA8F6E4-445B-441F-8FC7-4958C54C42AE}
+		{100ADE74-0C67-4C1E-A702-06E6E83886B2} = {8CA8F6E4-445B-441F-8FC7-4958C54C42AE}
+		{199CDE95-A432-4D04-B819-2599DDFDF255} = {8CA8F6E4-445B-441F-8FC7-4958C54C42AE}
+		{3433588A-DA75-4302-9C41-2E7FACD2A48B} = {86CBE967-9EEF-4811-A845-04D1B3503796}
+		{C5EB1748-0135-45BE-A87F-69523CA27241} = {86CBE967-9EEF-4811-A845-04D1B3503796}
+		{187B1989-56A3-42F0-A84F-26DD4708A62D} = {100ADE74-0C67-4C1E-A702-06E6E83886B2}
+		{EAD03CF2-9928-467C-A379-95E44C632106} = {100ADE74-0C67-4C1E-A702-06E6E83886B2}
+		{8A6E313E-4509-4711-AE70-58B50C756D2C} = {199CDE95-A432-4D04-B819-2599DDFDF255}
+		{0333B722-E220-4103-A162-C9CDEA52C5E3} = {8A6E313E-4509-4711-AE70-58B50C756D2C}
+		{64CDEE0A-05BC-4A27-AA35-94F1D3908D89} = {199CDE95-A432-4D04-B819-2599DDFDF255}
+		{BB775AA5-B3CA-418E-9DAA-06B224ED18EB} = {64CDEE0A-05BC-4A27-AA35-94F1D3908D89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {164C12E8-0A31-4911-9593-114BE597D7AB}
+	EndGlobalSection
+EndGlobal

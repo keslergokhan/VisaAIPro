@@ -1,0 +1,6 @@
+@VisaAIPro.Presentation.WebAPI.MobilAppAPI_HostAddress = http://localhost:5236
+
+GET {{VisaAIPro.Presentation.WebAPI.MobilAppAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
